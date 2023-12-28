@@ -6,13 +6,11 @@ function ChangeImage(){
     const navigateImage = useNavigate()
     const {
         newImage,
-        setNewImage,
-        changeImage
+        setNewImage
     } = React.useContext(ProgressContext)
 
     const onSubmit = (event)=>{
         event.preventDefault()
-        changeImage(newImage.src)
         navigateImage('/')
     }
 

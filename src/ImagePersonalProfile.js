@@ -10,28 +10,26 @@ function ImageProfile(){
 
 
     return(
-        <div>
-            <h1>Juan Jose Alvarez Zuluaga</h1>
-            <textarea></textarea>
+        <div className="container-profile">
             <img
             className="image-profile"
             src={viewImageProfile}
             onClick={()=>{
                 let question
-                while(question != 314){ // si la respuesta es diferente a 314 el ciclo sigue
             
                 question = prompt ("Contingente?")
         
                     if(question == 314){
                         naviagateChangeImage('/change-image')
                     }  else {
-                        console.log("no jodas, tan facil que era")
+                        naviagateChangeImage('/')
                     }
-                }
             }}
             />
-            <a href="https://github.com/juanjomxm">Links Proyectos</a>
-            <a href="https://www.facebook.com/juanjo.alvarezzuluaga/">Facebook</a>
+            <div className="container-discovery">
+                <h1>Juan Jose Alvarez Zuluaga</h1>
+                <p>Conocimientos y habilidades</p>
+            </div>
         </div>
     )
 }
