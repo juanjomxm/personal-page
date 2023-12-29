@@ -1,8 +1,10 @@
 import React from "react";
 import { ProgressProvider } from "./ContextGLobal/ContextGlobal";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { ImageProfile } from "./ImagePersonalProfile";
-import { ChangeImage } from "./ChangeImage";
+import { ImageProfile } from "./Profile/ImagePersonalProfile";
+import { Projects } from "./Projects/ProjectsProfile";
+import { SocialMedia } from "./SocialMedia/SocialMedia";
+import { ChangeImage } from "./Profile/ChangeImage";
 
 function App() {
   return (
@@ -11,7 +13,11 @@ function App() {
         <HashRouter>
           <Routes>
             <Route path="/" element={
-              <ImageProfile/>
+              <React.Fragment>
+                <ImageProfile/>
+                <Projects/>
+                <SocialMedia/>
+              </React.Fragment>
               }
             />
 

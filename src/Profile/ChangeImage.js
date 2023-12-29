@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { ProgressContext } from "./ContextGLobal/ContextGlobal";
+import { ProgressContext } from "../ContextGLobal/ContextGlobal";
 
 function ChangeImage(){
     const navigateImage = useNavigate()
