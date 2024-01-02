@@ -1,19 +1,18 @@
 import React from "react";
+import tuImagen from './imageProfile.jpg'
 import { useNavigate } from "react-router-dom";
 import { ProgressContext } from "../ContextGLobal/ContextGlobal";
 
 function ImageProfile(){
     const naviagateChangeImage = useNavigate()
     const {
-        viewImageProfile
     } = React.useContext(ProgressContext)
-
 
     return(
         <div className="container-profile">
             <img
             className="image-profile"
-            src={viewImageProfile}
+            src={tuImagen}
             onClick={()=>{
                 let question
             
