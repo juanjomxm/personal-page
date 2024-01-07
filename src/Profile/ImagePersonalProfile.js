@@ -27,7 +27,15 @@ function ImageProfile(){
             />
             <div className="container-discovery">
                 <h1>Juan Jose Alvarez Zuluaga</h1>
-                <p>Conocimientos y habilidades</p>
+                <article className="container-description">
+                    Soy un estudiante de programacion y desarrollo de software, 
+                    con un enfoque en frontend.
+                    Mi deseo es seguir aprendiendo y recolectando 
+                    nuevos conocimientos dia a dia para convertirme en un excelente
+                    programador, tambien adquirir conocimientos en el area de backend
+                    y especializarme en inteligencia artificial, todo es un proceso y 
+                    estoy en ese camino, con disciplina y enfoque estoy seguro de lo que puedo lograr
+                </article>
             </div>
         </div>
     )

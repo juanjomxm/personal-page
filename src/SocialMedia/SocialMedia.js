@@ -3,7 +3,7 @@ import React from "react";
 function SocialMedia(){
     return(
         <div className="container-social-media">
-            <h2>Redes Sociales</h2>
+            <h2>REDES SOCIALES</h2>
 
             <div className="log-social.media">
                 <a href={'https://www.facebook.com/juanjo.alvarezzuluaga'} target="_blank" rel="noopener noreferrer">
