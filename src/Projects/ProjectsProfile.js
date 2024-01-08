@@ -14,16 +14,7 @@ function Projects(){
                         />
                     </a>
                 </li>
-                <li>
-                    <a href={"https://images-anime-v1.vercel.app/"} target="_blank" rel="noopener noreferrer">IMAGENES ANIME
-                        <img
-                        src={"https://i.pinimg.com/originals/c4/13/d8/c413d803811cd59315b6a3c2c3e5096c.jpg"}
-                        width={50}
-                        height={50}
-                        /> 
-                    </a>
-                    
-                </li>
+                
                 <li>
                     <a href={"https://game-avatar.vercel.app/"} target="_blank" rel="noopener noreferrer">JUEGO AVATAR
                         <img
