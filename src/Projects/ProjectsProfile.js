@@ -22,8 +22,17 @@ function Projects(){
                         width={50}
                         height={50}
                         />
-                    </a>
-                    
+                    </a> 
+                </li>
+
+                <li>
+                    <a href={"https://app-exercise.vercel.app/"} target="_blank" rel="noopener noreferrer">RUTINA DE EJERCICIOS
+                        <img
+                        src={"https://i.ytimg.com/vi/8ar4-RvF2eU/maxresdefault.jpg"}
+                        width={50}
+                        height={50}
+                        />
+                    </a> 
                 </li>
             </ul>
         </div>
