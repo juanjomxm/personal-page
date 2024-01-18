@@ -4,7 +4,7 @@ function Projects(){
     return(
         <div className="container-projects">
             <h2>PROYECTOS</h2>
-            <ul>
+            <ul className="container-list-projects">
                 <li>
                     <a href={"https://progress-cultivation.vercel.app/"} target="_blank" rel="noopener noreferrer">CULTIVO
                         <img
@@ -29,6 +29,16 @@ function Projects(){
                     <a href={"https://app-exercise.vercel.app/"} target="_blank" rel="noopener noreferrer">RUTINA DE EJERCICIOS
                         <img
                         src={"https://i.ytimg.com/vi/8ar4-RvF2eU/maxresdefault.jpg"}
+                        width={50}
+                        height={50}
+                        />
+                    </a> 
+                </li>
+
+                <li>
+                    <a href={"https://results-soccer.vercel.app/"} target="_blank" rel="noopener noreferrer">RESULTADOS DE FUTBOL
+                        <img
+                        src={"https://th.bing.com/th/id/OIP.n_c7-CN7eybLsHzJteQxQAHaEK?rs=1&pid=ImgDetMain"}
                         width={50}
                         height={50}
                         />
