@@ -9,7 +9,7 @@ body{
 }
 
 h2{
-  background-color: rgba(32, 35, 41, .8);
+  background-color: black;
   border-radius: 5px;
 }
 
@@ -19,7 +19,6 @@ img{
 
 a{
   color: white;
-  background-color: rgba(32, 35, 41, .8);
 }
 
 li{
@@ -30,7 +29,6 @@ li{
   width: 300px;
   height: 300px;
   border-radius: 100%;
-  background-color: green;
 }
 
 .container-profile{
@@ -59,11 +57,15 @@ li{
   align-items: center;
   flex-direction: column;
   color: white;
+  margin-top: 20px;
 }
 .container-list-projects{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.container-list-projects a{
+  background: black;
 }
 
 .container-social-media{
@@ -72,11 +74,11 @@ li{
   flex-direction: column;
   color: white;
 }
-.log-social.media{
-  column-count: 3;
-  column-gap: 10px; /* Espacio entre las columnas, ajusta según tus preferencias */
+.log-social-media{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
-.log-social.media img {
-  width: 100%; /* Para asegurarte de que las imágenes ocupen todo el ancho de la columna */
-  margin-bottom: 10px; /* Espacio entre las imágenes, ajusta según tus preferencias */
+.log-social-media img{
+  border-radius: 100%;
 }
