@@ -39,7 +39,8 @@ li{
   justify-content: space-around;
 }
 .container-description{
-  max-width: 60%;
+  max-width: 70%;
+  text-align: center;
 }
 
 .container-discovery{
@@ -50,6 +51,7 @@ li{
   flex-direction: column;
   align-items: center;
   max-width: 50%;
+  justify-content: space-evenly;
 }
 
 .container-projects{
