@@ -28,13 +28,13 @@ function ImageProfile(){
             <div className="container-discovery">
                 <h1>Juan Jose Alvarez Zuluaga</h1>
                 <article className="container-description">
-                    Soy un estudiante de programacion y desarrollo de software, 
+                    Programador y desarrollador de software, 
                     con un enfoque en frontend.
-                    Mi deseo es seguir aprendiendo y recolectando 
-                    nuevos conocimientos dia a dia para convertirme en un excelente
-                    programador, tambien adquirir conocimientos en el area de backend
+                    Deseo seguir aprendiendo y recolectando 
+                    nuevos conocimientos dia a dia para convertirme en un
+                    desarrollador senior y con mi experiencia poder apoyar y enseñarle a las demas personas que comienzan o desean aprender algo nuevo. La meta es adquirir amplios conocimientos en el area de backend
                     y especializarme en inteligencia artificial, todo es un proceso y 
-                    estoy en ese camino, con disciplina y enfoque estoy seguro de lo que puedo lograr
+                    estoy en ese camino. Con disciplina y enfoque estoy seguro de lo que puedo lograr
                 </article>
             </div>
         </div>
