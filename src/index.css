@@ -7,58 +7,58 @@ body{
   background-position: center; /* Centra la imagen */
   background-attachment: fixed
 }
-
 h2{
   background-color: black;
   border-radius: 5px;
 }
-
 img{
   cursor: pointer;
 }
-
 a{
-  color: white;
+  color: black
 }
-
 li{
   margin-top: 5px;
 }
-
-.image-profile{
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
+button{
+  cursor: pointer;
 }
 
+
+/* Estilos de la imagen y texto de presentacion */
 .container-profile{
   display: flex;
   justify-content: space-evenly;
   color: white;
   margin-top: 10px;
-  justify-content: space-around;
+  align-items: center;
+}
+.image-profile{
+  width: 300px;
+  height: 50%;
+  border-radius: 100%;
 }
 .container-description{
-  max-width: 70%;
+  width: 70%;
   text-align: center;
 }
-
 .container-discovery{
   background-color: rgba(32, 35, 41, .8);
   border-radius: 5px;
-  height: 300px;
+  height: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 50%;
+  align-items: center; 
   justify-content: space-evenly;
 }
 
+/* Estilos para la seccion de proyectos */
 .container-projects{
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: #B6FFFA;
   margin-top: 20px;
 }
 .container-list-projects{
@@ -66,19 +66,33 @@ li{
   flex-wrap: wrap;
   justify-content: center
 }
-.container-list-projects a{
+.container-list-projects {
+  display: flex;
+  align-items: center;
+}
+.container-image-project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-projects{
+  margin-top: 10px;
   background: black;
+  color: #B6FFFA;
+  border-color: #B6FFFA;
+  border-radius: 5px;
 }
 
+/* Estilos para las redes sociales */
 .container-social-media{
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: #B6FFFA;
 }
 .log-social-media{
   display: flex;
-  width: 100%;
+  width: 100vw;
   justify-content: space-evenly;
 }
 .log-social-media img{
