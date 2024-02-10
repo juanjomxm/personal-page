@@ -5,7 +5,7 @@ function Projects(){
         <div className="container-projects">
             <h2>PORTAFOLIO</h2>
             <div className="container-list-projects">
-                {/* <ul>
+                <ul>
                     <a 
                     className="container-image-project"
                     href={"https://progress-cultivation.vercel.app/"} 
@@ -22,7 +22,7 @@ function Projects(){
                             className="button-projects"
                         >CULTIVO</button>
                     </a>
-                </ul> */}
+                </ul>
                 
                 <ul>
                     <a 
