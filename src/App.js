@@ -4,7 +4,9 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { ImageProfile } from "./Profile/ImagePersonalProfile";
 import { Projects } from "./Projects/ProjectsProfile";
 import { SocialMedia } from "./SocialMedia/SocialMedia";
-import { ChangeImage } from "./Profile/ChangeImage";
+
+import { ButtonCertificates } from "./Certificate/Certificates";
+import { Certificates } from "./Certificate/Certificates";
 
 function App() {
   return (
@@ -15,15 +17,21 @@ function App() {
             <Route path="/" element={
               <React.Fragment>
                 <ImageProfile/>
-                <Projects/>
+                <div className="container-projects-and-certificates">
+                  <Projects/>
+                  <ButtonCertificates/>
+                </div>
                 <SocialMedia/>
               </React.Fragment>
               }
             />
 
-            <Route path="/change-image" element={
-              <ChangeImage/>
-            }/>
+            {/* Navegacion para ver certificados de programacion */}
+            <Route path="/certificates" element={
+              <Certificates/>
+            }
+              
+            />
           </Routes>
         </HashRouter>
       </React.Fragment>
